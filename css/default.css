@@ -8,6 +8,7 @@ body
     background-image: url("https://www.kw1c.nl/media/afdeling/banners/811-ict-academie.jpg");
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: lightskyblue;
 }
 #FontAwesome
 {
@@ -19,4 +20,5 @@ footer
     left: 0;
     bottom: 0;
     width: 100%;
+    border: solid rgb(27,132, 197);
 }
