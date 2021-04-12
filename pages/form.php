@@ -192,3 +192,6 @@
         <input type="submit" name="send" value="verzend">
     </p>
 </form>
+<?php
+include "include"
+?>
