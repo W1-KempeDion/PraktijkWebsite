@@ -38,7 +38,7 @@ aanmaakdatum: <9-4-2020>
                             <a class="nav-link" href="#">Studenteninfo</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Zelf test</a>
+                            <a class="nav-link" href="pages/form.php">Zelf test</a>
                         </li>
                     </ul>
                     <i id="FontAwesome" class="fas fa-align-justify"></i>
