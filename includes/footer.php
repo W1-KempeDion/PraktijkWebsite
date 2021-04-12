@@ -1,10 +1,9 @@
-<?php echo
-"<footer class="bg-light text-center text-lg-start">
+
+<footer class="bg-light text-center text-lg-start">
   <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-dark" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+  <div class="text-center p-3" style="background-color: rgb(27,132, 197);">
+    © 2021 Copyright:
+    <a class="text-dark" href="https://www.kw1c.nl/afdeling/811/ict-academie">KW1C.nl</a>
   </div>
   <!-- Copyright -->
-</footer>";
-?>
+</footer>
