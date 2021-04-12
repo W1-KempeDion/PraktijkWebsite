@@ -9,13 +9,13 @@
         <label>1. Reden van inschrijving?</label>
     <ul>
         <li>
-            <input type="radio" name="questionOne" value="6.66"> Ik vind het onderwerp interessant
+            <input type="radio" name="questionOne" value=6.66> Ik vind het onderwerp interessant
         </li>
         <li>
-            <input type="radio" name="questionOne" value="3.33"> Ik vind gamen leuk
+            <input type="radio" name="questionOne" value=3.33> Ik vind gamen leuk
         </li>
         <li>
-            <input type="radio" name="questionOne" value="0"> Ik moest iets kiezen
+            <input type="radio" name="questionOne" value=0> Ik moest iets kiezen
         </li>
     </ul>
     </p>
