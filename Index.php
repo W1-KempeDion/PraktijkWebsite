@@ -52,8 +52,10 @@ aanmaakdatum: <9-4-2020>
 
 
         </main>
-        <footer>
-
-        </footer>
-</body>
+    <footer>
+        <?php
+            include 'includes/footer.php';
+        ?>
+    </footer>
+    </body>
 </html>
