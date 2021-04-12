@@ -32,6 +32,7 @@ aanmaakdatum: <9-4-2020>
     <footer>
         <?php
             include 'includes/footer.php';
+            //fix
         ?>
     </footer>
     </body>
