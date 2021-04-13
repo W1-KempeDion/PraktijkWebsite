@@ -2,7 +2,7 @@
 <html>
 <head>
     <title>
-        ICT-Academie - Koning Willem 1 College
+        Zelftest - Koning Willem 1 College
     </title>
     <meta carset="UTF-8">
     <meta name="viewport" content="width=device-width, inital-scale=1.0">
