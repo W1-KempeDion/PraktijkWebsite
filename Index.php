@@ -23,6 +23,22 @@ aanmaakdatum: <9-4-2020>
             ?>
         </header>
         <main>
+            <div class="background">
+            <?php
+            if(date('H') < '6') {
+                echo "<h1>Goedenacht, welkom op de website!</h1>";
+            }
+            elseif (date('H') < '12') {
+                echo "<h1>Goedemorgen, welkom op de website!</h1>";
+            }
+            elseif (date('H') < '18') {
+                echo "<h1>Goedemiddag, welkom op de website!</h1>";
+            }
+            else {
+                echo "<h1>Goedeavond, welkom op de website!</h1>";
+            }
+            ?>
+            </div>
             <br>
             <br>
             <br>
