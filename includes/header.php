@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(27,132, 197)">
-    <a class="navbar-brand" href="#"><img id="KW1C" src="images/bTODMxnp_400x400.jpg"></a>
+    <a class="navbar-brand" href="#"><img id="KW1C" src="../images/bTODMxnp_400x400.jpg"></a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
     </button>
@@ -18,7 +18,7 @@
                 <a class="nav-link" href="#">Studenteninfo</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="pages/form.php">Zelf test</a>
+                <a class="nav-link" href="../pages/form.php">Zelf test</a>
             </li>
         </ul>
         <!--
