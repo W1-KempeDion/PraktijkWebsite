@@ -19,7 +19,7 @@ aanmaakdatum: <9-4-2020>
     <body>
         <header id="header">
             <?php
-                include 'includes/header.php';
+                include 'includes/header_index.php';
             ?>
         </header>
         <main>
