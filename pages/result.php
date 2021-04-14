@@ -35,14 +35,14 @@ aanmaakdatum: <9-4-2020>
 
     //            forloop die de score uitrekent
                 for($i=1;$i<15;$i++) {
-                    $total += $_GET["question$i"];
+                    $total += $_POST["question$i"];
                 }
 
     //            afronden van de score
                 $result = round($total, $precision = 0);
 
     //            welkom bericht
-                echo "<h3>Gooie dag ".$_GET["name"]."</h3>";
+                echo "<h3>Gooie dag ".$_POST["name"]."</h3>";
 
     //            if/else statment voor het uitvinden van een positive of negative score
                 if ($result >= 50) {
@@ -54,8 +54,9 @@ aanmaakdatum: <9-4-2020>
                     echo "<br><img src='../images/thumb_down.png' alt='thumb'id='thumb'>";
                 }
 
-    //            Opmerking met datum
-            echo "<p> Uw opmerking &ldquo;".$_GET["remarks"]."&rdquo; is verzonden naar ons op ".date("j F, Y, g:i a")."</p>";
+    //            Opmerking met datum en datum set
+            date_default_timezone_set("Europe/Amsterdam");
+            echo "<p> Uw opmerking &ldquo;".$_POST["remarks"]."&rdquo; is verzonden naar ons op ".date("j F, Y, g:i a")."</p>";
             ?>
         </main>
     <!--Include van de footer-->

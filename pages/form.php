@@ -27,7 +27,7 @@
         </h5>
         <br>
         <!-- Het opmaken van een form -->
-        <form method="get" action="result.php">
+        <form method="post" action="result.php">
             <p>
                 Voor en achternaam
                 <input name="name" value="" type="text" required>
