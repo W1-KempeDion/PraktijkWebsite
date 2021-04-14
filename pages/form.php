@@ -22,7 +22,7 @@
     <main>
         <p id="welkom">
             Welkom bij de zelftest.<br>
-            Bij deze test kun je er achter komen of de ICT acedemie wel iets voor jouw is.<br>
+            Bij deze test kun je er achter komen of de ICT acedemie wel iets voor jouw is.
             Vul je vragen zo goed en eerlijk mogelijk in voor het beste resultaat.
         </p>
         <br>
