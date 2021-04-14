@@ -1,3 +1,9 @@
+<header>
+<?php
+    include '../includes/header.php';
+    ?>
+</header>
+<main>
 <?php
 //$calculation = $_GET["questionOne"]+$_GET["questionTwo"]+$_GET["questionThree"]+$_GET["questionFour"]+$_GET["questionFive"]+$_GET["questionSix"]+$_GET["questionSeven"]+$_GET["questionEight"]+$_GET["questionNine"]+$_GET["questionTen"]+$_GET["questionEleven"]+$_GET["questionTwelve"]+$_GET["questionThirteen"]+$_GET["questionFourteen"]+$_GET["questionFifteen"];
 $total = 0;
@@ -12,3 +18,10 @@ if ($result >= 50) {
 else {
     echo "Jou score is ".$result."%, de ICT opleiding is niet echt iets voor jou";
 }
+?>
+</main>
+<footer>
+<?php
+    include '../includes/footer.php';
+?>
+</footer>

@@ -6,7 +6,7 @@
     <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav">
             <li class="nav-item active">
-                <a class="nav-link" href="#">Opleiding</a>
+                <a class="nav-link" href="../Index.php">Opleiding</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Studiekeuze</a>
@@ -21,7 +21,9 @@
                 <a class="nav-link" href="pages/form.php">Zelf test</a>
             </li>
         </ul>
+        <!--
         <i id="FontAwesome" class="fas fa-align-justify"></i>
+        -->
     </div>
 </nav>
 <!-- testfix-->
