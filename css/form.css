@@ -1,7 +1,9 @@
+/*zodat er geen opsommingspunten voor de radio knoppen staan*/
 ul
 {
     list-style: none;
 }
+/*opmaak van de verzend knop*/
 input[type=submit] {
     background-color: rgb(27,132, 197);
     color: white;
@@ -10,19 +12,34 @@ input[type=submit] {
     border-radius: 4px;
     cursor: pointer;
 }
+/*dit zorgt voor de opmaak van de titels van de vragen*/
 label {
     padding: 12px 12px 12px 0;
     display: inline-block;
 }
+/*hierbij word de plek waar je de naam en opmerkingen invuld mooi rond afgewerkt*/
 input[type=text], select, textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+/*hierbij word de plek waar je de geboortedatum invuld mooi rond afgewerkt*/
 input[type=date], select, textarea{
     border: 1px solid #ccc;
     border-radius: 4px;
 }
+/*Dit is de achtergrond van de pagina*/
 body
 {
     background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200821/pngtree-sky-blue-solid-color-background-wallpaper-image_396578.jpg");
+}
+/*hierbij word de welkoms tekst opgemaakt*/
+#welkom
+{
+    text-align: center;
+    width: 50%;
+    border: solid rgb(255, 0, 0) 10px;
+    background-color: rgb(102, 182,223);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
