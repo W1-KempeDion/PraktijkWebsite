@@ -10,7 +10,7 @@
     <head>
     <!--    Titel van de pagina-->
         <title>
-            Zelftest - Koning Willem 1 College
+            Result - Koning Willem 1 College
         </title>
     <!--    Meta's, Links naar css en scripts-->
         <meta carset="UTF-8">
