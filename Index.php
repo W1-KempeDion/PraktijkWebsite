@@ -22,17 +22,28 @@ aanmaakdatum: <9-4-2020>
                 include 'includes/header.php';
             ?>
         </header>
-        <main><!-- testfix-->
-
-
-
-
-
+        <main>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div class="background">
+                <h2>
+                    Algemeen
+                </h2>
+                <p>
+                     Een goede ICT’er is gedreven om te leren en is bereid om kennis te delen met anderen. Dat vinden ze<br>
+                    bij het bedrijfsleven. Verder moet je wat willen bereiken, plezier hebben in wat je doet en goed in een<br>
+                    team kunnen werken. Tijdens je studie aan de ICT-Academie krijg je hiermee te maken. Dat gebeurt<br>
+                    zoveel mogelijk in projectvormen: leren werken en werkend leren in klein groepsverband, met<br>
+                    opdrachten uit de praktijk. Teamwork dus. Belangrijk is verder de adviesraad, die bestaat uit<br>
+                    vertegenwoordigers van vooraanstaande bedrijven uit de regio.
+                </p>
+            </div>
         </main>
     <footer>
         <?php
             include 'includes/footer.php';
-            //fix
         ?>
     </footer>
     </body>

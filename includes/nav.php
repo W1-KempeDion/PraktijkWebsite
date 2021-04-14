@@ -7,7 +7,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
             <ul class="navbar-nav">
                 <li class="nav-item active">
-                    <a class="nav-link" href="#">Opleiding</a>
+                    <a class="nav-link" href="../Index.php">Opleiding</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="#">Studiekeuze</a>
