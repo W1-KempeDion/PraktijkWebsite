@@ -14,7 +14,7 @@
 <body>
     <header>
         <?php
-        include "../includes/nav.php";
+        include "../includes/header.php";
         ?>
     </header>
     <main>
