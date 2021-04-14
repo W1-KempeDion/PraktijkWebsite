@@ -22,6 +22,9 @@ footer
 {
     text-align: center;
     border: solid rgb(255, 0, 0) 10px;
-    display:inline-block;
     background-color: rgb(102, 182,223);
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
 }
+/*display:inline-block;*/
