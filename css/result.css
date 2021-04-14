@@ -1,11 +1,20 @@
 /*Verandert de background image naar een solid blue omdat er in de default een background image staat*/
-body
+#achtergrond
 {
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200821/pngtree-sky-blue-solid-color-background-wallpaper-image_396578.jpg");
+    background-color: rgb(102, 182,223);
+
 }
 
 /*Image resize van het resultaat*/
 #check, #thumb
 {
     width: 100px;
+}
+footer
+{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    border: solid rgb(27,132, 197);
 }
