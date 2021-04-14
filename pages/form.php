@@ -212,6 +212,9 @@
                 <input type="submit" name="send" value="verzend">
             </p>
         </form>
+        <br>
+        <br>
+        <br>
     </main>
     <footer>
         <?php
