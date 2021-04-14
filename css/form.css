@@ -47,6 +47,7 @@ body
 #links
 {
     float: left;
+    margin-left: 10vw;
 }
 #links2
 {
@@ -58,5 +59,8 @@ body
 }
 form
 {
-    border: red solid 5px;
+    border: rgb(27,132, 197) solid 5px;
+    width: 100%;
+    margin-right: 100%;
+    margin-right: 100%;
 }

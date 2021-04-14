@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<!--
-Auteur:     <Dion Kempe>
-aanmaakdatum: <9-4-2020>
-
-<De result page van de form>
--->
+<?php
+/**
+ * Author:  Daan van Meer, Daan van Maren en Dion Kempe
+ * Date:    9-4-2020
+ * Subject: result.php
+ */
+?>
 <html>
     <head>
     <!--    Titel van de pagina-->
@@ -40,15 +41,19 @@ aanmaakdatum: <9-4-2020>
                 $result = round($total, $precision = 0);
 
     //            welkom bericht
-                echo "<h3>Gooie dag ".$_POST["name"]."</h3>";
+                echo "<h3>Goede dag ".$_POST["name"]."</h3>";
 
     //            if/else statment voor het uitvinden van een positive of negative score
                 if ($result >= 50) {
                     echo "Jou score is ".$result."%, de ICT opleiding is iets voor jou!";
+                    echo "<br>Meld je nu aan via ";
+                    echo '<a href="https://www.kw1c.nl/opleiding/25604o10/software-developer-bol">KW1C</a>';
                     echo "<br><img src='../images/check.png' alt='thumb'id='check'>";
                 }
                 else {
                     echo "Jou score is ".$result."%, de ICT opleiding is niet echt iets voor jou";
+                    echo "<br>Kijk anders verder op ";
+                    echo '<a href="https://www.kw1c.nl/opleidingen">KW1C</a>';
                     echo "<br><img src='../images/thumb_down.png' alt='thumb'id='thumb'>";
                 }
 

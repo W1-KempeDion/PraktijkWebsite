@@ -1,10 +1,11 @@
 <!Doctype html>
-<!--
-Auteur:     <Daan van maren>
-aanmaakdatum: <9-4-2020>
-
-<onderwerp website>
--->
+<?php
+/**
+ * Author:  Daan van Meer, Daan van Maren en Dion Kempe
+ * Date:    9-4-2020
+ * Subject: index.php
+ */
+?>
 <html>
 <head>
     <title>

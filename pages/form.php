@@ -1,4 +1,11 @@
 <!Doctype html>
+<?php
+/**
+* Author:  Daan van Meer, Daan van Maren en Dion Kempe
+* Date:    9-4-2020
+* Subject: form.php
+*/
+?>
 <html>
 <head>
     <title>
@@ -20,6 +27,7 @@
     </header>
     <!-- Welkoms tekst voor de zelftest -->
     <main>
+        <br>
         <h5 id="welkom">
             Welkom bij de zelftest.<br>
             Bij deze test kun je er achter komen of de ICT acedemie wel iets voor jouw is.

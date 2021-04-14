@@ -2,9 +2,11 @@
 #achtergrond
 {
     background-color: rgb(102, 182,223);
-
 }
-
+#KW1C
+{
+    height: 80px;
+}
 /*Image resize van het resultaat*/
 #check, #thumb
 {
@@ -18,3 +20,4 @@ footer
     width: 100%;
     border: solid rgb(27,132, 197);
 }
+
