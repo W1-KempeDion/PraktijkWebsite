@@ -20,11 +20,11 @@
     </header>
     <!-- Welkoms tekst voor de zelftest -->
     <main>
-        <p id="welkom">
+        <h5 id="welkom">
             Welkom bij de zelftest.<br>
             Bij deze test kun je er achter komen of de ICT acedemie wel iets voor jouw is.
             Vul je vragen zo goed en eerlijk mogelijk in voor het beste resultaat.
-        </p>
+        </h5>
         <br>
         <!-- Het opmaken van een form -->
         <form method="get" action="result.php">
@@ -246,9 +246,12 @@
             </p>
             <!--een plek waar opmerkingen kunnen worden ingezet -->
             <p>
-                <label>Opmerkingen<br> </label>
+                <label>Opmerkingen:<br> </label>
+                <br>
                 <textarea name="remarks"></textarea>
             </p>
+            <!-- checkbox voor alles naar waarheid ingevuld -->
+            <input type="checkbox" name="check" value="Yes" required> Ik heb alles naar waarheid ingevuld
             <!-- de verzend knop -->
             <p>
                 <input type="submit" name="send" value="verzend">
