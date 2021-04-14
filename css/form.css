@@ -40,9 +40,23 @@ body
 #welkom
 {
     text-align: center;
-    width: 70%;
-    border: solid rgb(255, 0, 0) 5px;
     display:block;
     margin-left: auto;
     margin-right: auto;
+}
+#links
+{
+    float: left;
+}
+#links2
+{
+    float: left;
+}
+#rechts
+{
+    float: left;
+}
+form
+{
+    border: red solid 5px;
 }
