@@ -20,7 +20,7 @@ footer
 .background
 {
     text-align: center;
-    border: solid rgb(255, 0, 0) 10px;
+    border: dashed rgb(255, 0, 0) 5px;
     background-color: rgb(102, 182,223);
     display:block;
     margin-left: auto;
